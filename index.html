@@ -2,48 +2,68 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8" />
-    <title>Магазин товаров для дома</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style-themes.css" />
+    <title>Мой сайт – Неопознанный енот</title>
   </head>
-  <body>
-    <header class="site-header">
+  <body class="page">
+    <header class="page-header">
       <div class="container">
-        <h1>Gloevk</h1>
-        <p>Разнообразные товары для дома с доставкой по всей планете</p>
-        <img
-          src="img/gloevk-examples.png"
-          width="510"
-          height="80"
-          alt="Примеры интерьеров"
-        />
+        <h1 class="page-title">Мой сайт</h1>
+        <p>
+          <i>По всем вопросам пишите:</i><br /><a
+            href="mailto:enot_neopoznanniy@gmail.com"
+            >enot_neopoznanniy@gmail.com</a
+          >
+        </p>
+        <button class="theme-button" type="button">Изменить тему</button>
       </div>
     </header>
-
-    <section class="features">
-      <h2>Что поможет вам создать домашний уют?</h2>
-      <p class="feature-furniture">Мебель и фурнитура</p>
-      <p class="feature-lighting">Лампы и торшеры</p>
-      <p class="feature-accessories">Аксессуары и мелочи</p>
-    </section>
-
-    <section class="advantages">
-      <h2>Что выделяет нас среди конкурентов?</h2>
-      <ul class="advantages-list">
-        <li class="advantages-item">Используем только природные материалы</li>
-        <li class="advantages-item standard">Ежедневные отчёты о ходе работ</li>
-        <li class="advantages-item standard">Сами соберём мебель для вас</li>
-        <li class="advantages-item vip">
-          Бесплатное гарантийное обслуживание в течение 10 лет
-        </li>
-        <li class="advantages-item vip">Доставка в день заказа</li>
-      </ul>
-    </section>
-
-    <footer class="site-footer">
+    <main>
+      <section class="about container">
+        <h2 class="section-title">Привет, я Неопознанный енот</h2>
+        <img
+          class="about-image"
+          src="img/unknown-raccoon.svg"
+          width="147"
+          height="147"
+          alt="Неопознанный енот"
+        />
+        <div class="about-content">
+          <p>
+            Товарищи! постоянное информационно-пропагандистское обеспечение
+            нашей деятельности обеспечивает широкому кругу (специалистов)
+            участие в формировании систем массового участия.
+          </p>
+          <p>
+            С другой стороны постоянный количественный рост и сфера нашей
+            активности позволяет выполнять важные задания по разработке
+            существенных финансовых и административных условий.
+          </p>
+        </div>
+      </section>
+      <section class="status container">
+        <h2 class="section-title">Мой статус</h2>
+        <p>#яжверстальщик!</p>
+      </section>
+      <section class="contacts container">
+        <h2 class="section-title">Контакты для связи</h2>
+        <p class="contacts-name">Неопознанный енот</p>
+        <p>
+          <i>email:</i>
+          <a href="mailto:enot_neopoznanniy@gmail.com"
+            >enot_neopoznanniy@gmail.com</a
+          >
+        </p>
+        <p><i>телефон:</i> <a href="tel:+79876543210">+79876543210</a></p>
+      </section>
+    </main>
+    <footer class="page-footer">
       <div class="container">
-        <p>© Кекс, 2020</p>
-        <p>Магазин товаров для дома</p>
+        <p>© Неопознанный енот</p>
+        <p>2020</p>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
